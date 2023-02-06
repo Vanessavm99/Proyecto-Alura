@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    margin: 0;
+    background-image: url(Imagenes/chijiro2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  100% 100%;
+   } 
+ 
+ h1{
+    font-size: 85px;
+    color: #bbbb;
+    height: 79px;
+    width: 171px;
+    margin-left: 199px;
+    margin-top: 10px;
+ }
+ main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+ }
+ 
+ .text-area{
+    resize: none;
+    margin-top: 176px;
+    margin-left: 141px;
+    margin-right: 50px;
+    border-radius: 10px;
+    text-transform: lowercase;
+    border-color: darkolivegreen;
+    color: #bbbb;
+ }
+ 
+ ::placeholder{font-size:15px;
+ text-align: center; font-style: italic; margin-top: 10px;}
+ 
+ .text-area:focus{
+    outline: none;
+ }
+ h6{
+    color: #111111;
+    font-size: 15px;
+    margin-left: 150px;
+    color: #bbbb;
+ }
+ #mensaje{
+    resize: none;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-color: darkolivegreen;
+    border-radius: 10px;
+    text-transform: lowercase;
+    color: #bbbb;
+ }
+ 
+ #mensaje:focus{
+    outline: none;
+ }
+ 
+ .botones{
+    display: flex;
+    margin-left: 150px;
+ }
+ .btn-encriptar{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    background: darkslategrey;
+    background-color: darkslategrey;
+    border: 1px solid darkslategrey;
+    color: #bbb;
+    cursor: pointer;
+ }
+ .btn-desencriptar{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    background: #bbbb;
+    border: 1px solid  #bbbb;
+    cursor: pointer;
+    margin-left: 20px;
+   }
+   .btn-copiar{
+   height: 30px;
+   width: 200px;
+   margin-top: 10px;
+   margin-left: 98px;
+   border-radius: 10px;
+   background: darkslategrey;
+   background-color: darkslategrey;
+   border: 1px solid darkslategrey;
+   color: #bbbb;
+   cursor: pointer;
+   }
